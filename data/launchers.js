@@ -271,11 +271,11 @@ const db_launchers = [
         ]
     },
     {
-        name: "MITC",
+        name: "PCL MITC",
         group: "pcl",
         dev: "balareshe",
         url: "https://pcl.umrca.com/",
-        repo: "balareshe/MITC",
+        repo: "balareshe/PCL-MITC",
         state: "active",
         download: "ok",
         platforms: ["windows"],
@@ -283,7 +283,7 @@ const db_launchers = [
         lang: "VB.NET",
         features: ["mirror", "authlib"],
         createdAt: "2026/10/25",
-        updatedAt: "2026/11/05",
+        updatedAt: "2026/11/06",
         downloadLog: [],
         note: "基于 PCL 2.13.0.1（PCL 2.99.0.0 之前的版本）的个人修改版，重命名为 MITC，保留原有的游戏下载功能、未做地区限制；自建更新通道与联机中继。使用前需在官网申请授权码（人工审核发放），非官方发布，与原作者无隶属关系。",
         reference: [
@@ -292,8 +292,8 @@ const db_launchers = [
                 url: "https://pcl.umrca.com/"
             },
             {
-                title: "源码仓库：balareshe/MITC",
-                url: "https://github.com/balareshe/MITC"
+                title: "源码仓库：balareshe/PCL-MITC",
+                url: "https://github.com/balareshe/PCL-MITC"
             },
             {
                 title: "上游基线：PCL 2.13.0.1",
