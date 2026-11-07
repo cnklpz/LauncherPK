@@ -595,7 +595,7 @@ const db_launchers = [
         platforms: ["windows", "macos", "linux"],
         license: "GPL-3.0",
         lang: "C#",
-        features: [],
+        features: ["mirror","authlib"],
         createdAt: "2025/10/02",
         updatedAt: "2026/11/02",
         downloadLog: [],
