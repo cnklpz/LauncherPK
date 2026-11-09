@@ -245,8 +245,8 @@ const db_launchers = [
         name: "PCL 詩音",
         group: "pcl",
         dev: "Mar7thLover",
-        url: "https://github.com/Mar7thLover/PCL-Shion",
-        repo: "Mar7thLover/PCL-Shion",
+        url: "https://github.com/OrihaWeave/PCL-Shion",
+        repo: "OrihaWeave/PCL-Shion",
         state: "active",
         download: "ok",
         platforms: ["windows", "macos", "linux"],
@@ -254,12 +254,12 @@ const db_launchers = [
         lang: "C#",
         features: ["mirror", "authlib"],
         createdAt: "2026/10/22",
-        updatedAt: "2026/11/02",
+        updatedAt: "2026/11/06",
         downloadLog: [
             {
                 date: "2026/10/22",
                 text: "5795976：移除从 PCL CE 继承的中国大陆下载/安装限制。",
-                ref: "https://github.com/Mar7thLover/PCL-Shion/commit/5795976"
+                ref: "https://github.com/OrihaWeave/PCL-Shion/commit/5795976"
             }
         ],
         note: "PCL Shion，PCL CE 的分支，界面迁移到 Avalonia，支持三平台。",
@@ -437,6 +437,33 @@ const db_launchers = [
         downloadLog: [],
         note: "XMCL，基于 Electron 的跨平台启动器。",
         reference: []
+    },
+    {
+        name: "BakaXL",
+        group: "desktop",
+        dev: "TT702",
+        url: "https://www.bakaxl.com",
+        repo: "BakaXL-Launcher/BakaXL",
+        state: "active",
+        download: "unknown",
+        platforms: ["windows", "macos", "linux"],
+        license: "闭源",
+        lang: "未知",
+        features: [],
+        createdAt: "2019/12/26",
+        updatedAt: "2026/11/06",
+        downloadLog: [],
+        note: "闭源（非全部开源）。仓库为项目门户，用于议题和预览版发布，创建日期不代表首个版本发布时间（1.X 已于 2015 年停止维护）。3.0（Sloth-3.5.1.0）仅 Windows，只做安全更新；4.0 预览版（Bunny 通道）支持 Windows / macOS / Linux，2026/11/04 仍有构建发布。未找到地区下载限制的公告，2026/10/20 之后仍有用户反馈游戏安装相关问题（如 #915）。",
+        reference: [
+            {
+                title: "BakaXL 4.0 预览版发布页",
+                url: "https://github.com/BakaXL-Launcher/BakaXL/releases"
+            },
+            {
+                title: "#915：实例在模组加载器安装阶段提前加入游戏抽屉",
+                url: "https://github.com/BakaXL-Launcher/BakaXL/issues/915"
+            }
+        ]
     },
     {
         name: "LauncherX",
