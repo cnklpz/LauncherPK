@@ -285,7 +285,7 @@ const db_launchers = [
         createdAt: "2026/10/25",
         updatedAt: "2026/11/06",
         downloadLog: [],
-        note: "基于 PCL 2.13.0.1（PCL 2.99.0.0 之前的版本）的个人修改版，重命名为 MITC，保留原有的游戏下载功能、未做地区限制；自建更新通道与联机中继。使用前需在官网申请授权码（人工审核发放），非官方发布，与原作者无隶属关系。",
+        note: "基于 PCL 2.13.0.1（PCL 2.99.0.0 之前的版本）的个人修改版，重命名为 PCL MITC，保留原有的游戏下载功能、未做地区限制；自建更新通道与联机中继。使用前需在官网申请授权码（人工审核发放），非官方发布，与原作者无隶属关系。",
         reference: [
             {
                 title: "官网：MITC 下载与授权申请",
@@ -595,9 +595,9 @@ const db_launchers = [
         platforms: ["windows", "macos", "linux"],
         license: "GPL-3.0",
         lang: "C#",
-        features: ["mirror","authlib"],
+        features: ["mirror", "authlib"],
         createdAt: "2025/10/02",
-        updatedAt: "2026/11/02",
+        updatedAt: "2026/11/09",
         downloadLog: [],
         note: "黑曜石论坛出品，基于 Avalonia 的跨平台启动器。",
         reference: [
